@@ -1,0 +1,14 @@
+
+datasource:
+  parser:
+    jdbcUrl: jdbc:mysql://localhost:3306/parser?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&autoReconnect=true
+    username: test
+    password: test
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+tui.base:
+  pageSize: 50
+  url:
